@@ -7,24 +7,17 @@ Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 There are two methods for getting started with this repo.
 
 #### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start the transpiling process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> git clone https://github.com/lebaz20/ReduxSimpleStarter.git
 > cd ReduxSimpleStarter
 > yarn install
 > yarn start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> yarn install
-> yarn start
-```
-
-In case, You just want to transpile your files without starting a dev server, just run:
+Note that `yarn start` starts a server with hot reloading option to be able to see your changes on the browser with a simple browser refresh.
+However, If you just want to generate your `bundle.js` without starting a dev server, Just run:
 
 ```
 > yarn build
