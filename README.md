@@ -12,15 +12,15 @@ Checkout this repo, install dependencies, then start the transpiling process wit
 ```
 > git clone https://github.com/lebaz20/ReduxSimpleStarter.git
 > cd ReduxSimpleStarter
-> yarn install
-> yarn start
+> npm install
+> npm start
 ```
 
 Now you can access the application via http://localhost:8080/
 
-Note that `yarn start` starts a server with hot reloading option to be able to see your changes on the browser with a simple browser refresh.
+Note that `npm start` starts a server with hot reloading option to be able to see your changes on the browser with a simple browser refresh.
 However, If you just want to generate your `bundle.js` without starting a dev server, Just run:
 
 ```
-> yarn build
+> npm build
 ```
